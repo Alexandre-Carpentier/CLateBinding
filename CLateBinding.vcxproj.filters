@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\BaseClass">
+      <UniqueIdentifier>{06be75b2-c5fb-48ef-8a44-271a5d222c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\BaseClass\Multimeter">
+      <UniqueIdentifier>{16445029-b369-4172-a37b-aa440fe4acd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\BaseClass\Oscope">
+      <UniqueIdentifier>{6b7c66b1-8890-4110-b7ec-e1cdfb92049b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="multimetre.c">
+      <Filter>Fichiers sources\BaseClass\Multimeter</Filter>
+    </ClCompile>
+    <ClCompile Include="oscope.c">
+      <Filter>Fichiers sources\BaseClass\Oscope</Filter>
+    </ClCompile>
+    <ClCompile Include="baseclass.c">
+      <Filter>Fichiers sources\BaseClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="multimetre.h">
+      <Filter>Fichiers sources\BaseClass\Multimeter</Filter>
+    </ClInclude>
+    <ClInclude Include="oscope.h">
+      <Filter>Fichiers sources\BaseClass\Oscope</Filter>
+    </ClInclude>
+    <ClInclude Include="baseclass.h">
+      <Filter>Fichiers sources\BaseClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
