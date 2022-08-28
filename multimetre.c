@@ -13,6 +13,7 @@ BOOL multimetre_constructor(MULTIMETRE* const _this, char* address, int mode)
 	_this->device.pvirtual = &vtab;
 
 	_this->mode = mode;
+	printf("Multimeter Mode on port %s set to %i\n", _this->device.szAddress, _this->mode);
 	return TRUE;
 }
 

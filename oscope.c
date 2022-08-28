@@ -13,6 +13,7 @@ BOOL oscope_constructor(OSCOPE* const _this, char* address)
 	_this->device.pvirtual = &vtab;
 
 	_this->freq = 1000;
+	printf("Oscope Frequency on port %s set to %iHz\n", _this->device.szAddress, _this->freq);
 	return TRUE;
 }
 
